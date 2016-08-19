@@ -1,0 +1,37 @@
+
+
+/* ASIDE CONTENT */
+
+#logo_placeholder
+{
+    height: 200px;
+    width: 200px;
+    background-color: #fff;
+}
+.logo
+{
+    padding: 10px;
+}
+#nav_container
+{
+    
+    margin-top: 20px;
+    padding: 10px;
+    height: 400px;
+    width: 200px;
+
+    font-size: 12px;
+    line-height: 16px;
+    background-color: #fff;
+}
+
+/* MAIN CONTENT */
+
+.square_link
+{
+    height: 200px;
+    width: 200px;
+    float: left;
+    background: #fff;
+    margin: 0 20px 20px 0px;
+}
