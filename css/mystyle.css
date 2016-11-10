@@ -27,21 +27,24 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px;	}
 {
 	width: 1040px;
 	margin: 48px auto 48px;
-	min-height: 1000px;
-	background: #FFFFFF;
+	
+	background-color:  #FFFFFF;
 }
 #content
 {
 	margin:0 40px;
+	
 }
 #aside-content-wrapper {
 	width: 250px;
-	float: left;
+	
 }
 #main-content-wrapper {
 	width: 710px;
-	float: left;
+	
+
 }
+
 .sitetitle 
 {
 	padding: 24px 0 0;
@@ -58,8 +61,8 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px;	}
 .nav-bar-container 
 {
     margin: 20px 0;
-    border-top: 1px solid  #515151;
-    border-bottom: 1px solid  #515151;
+    border-top: 1px solid  rgb(237, 237, 237);
+    border-bottom: 1px solid  rgb(237, 237, 237);
 }
     
 #primary-menu {
@@ -92,7 +95,7 @@ li {
 #content-description
 {
 	height: 100px; 
-	border-bottom: 1px solid #515151;
+	border-bottom: 1px solid rgb(237, 237, 237);
     }
 .description-title {
 	
@@ -107,8 +110,10 @@ li {
     
 }
 #article-block {
-    border-bottom: 1px solid #5a5a5a;
+	margin-bottom: 24px;
+    border-bottom: 1px solid rgb(237, 237, 237);
     position: relative;
+    clear: both;
 }
 .article-header {
     margin-bottom: 24px;
@@ -134,4 +139,18 @@ li {
 	right: 10px;
 	color: #21759b;
 	font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer {
+	clear: both;
 }
