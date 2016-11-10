@@ -1,37 +1,137 @@
-
-
-/* ASIDE CONTENT */
-
-#logo_placeholder
+body
 {
-    height: 200px;
-    width: 200px;
-    background-color: #fff;
+	
+	font-family: 'Open Sans', sans-serif;
+	background-color:  #E6E6E6;
+	font-size: 10px;
+
 }
-.logo
-{
-    padding: 10px;
-}
-#nav_container
-{
+
+h1 {  font-size: 26px; line-height: 30px;	color: #515151;	font-weight: bold;	vertical-align:baseline;		}
+h2 {  font-size: 22px; line-height: 26.5px;	color: #515151;	font-weight: bold;	vertical-align:baseline;		}
+h3 {  font-size: 18px; line-height: 22px;	color: #515151; font-weight: bold;	vertical-align:baseline;		}
+h4 {  font-size: ; line-height: ;		}
+Blockquote { font-size: ; line-height: ;	}
+p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px;	} 	
     
-    margin-top: 20px;
-    padding: 10px;
-    height: 400px;
-    width: 200px;
+    
+    
+    
+        
 
-    font-size: 12px;
-    line-height: 16px;
+
+
+
+
+#wrapper 
+{
+	width: 1040px;
+	margin: 48px auto 48px;
+	min-height: 1000px;
+	background: #FFFFFF;
+}
+#content
+{
+	margin:0 40px;
+}
+#aside-content-wrapper {
+	width: 250px;
+	float: left;
+}
+#main-content-wrapper {
+	width: 710px;
+	float: left;
+}
+.sitetitle 
+{
+	padding: 24px 0 0;
+}
+.sitetitle a {
+	color: #515151;
+	text-decoration: none;
+}
+.sitetitle-second {
+	padding: 0;
+	margin: 12px 0 0 0;
+}
+/*navigation*/
+.nav-bar-container 
+{
+    margin: 20px 0;
+    border-top: 1px solid  #515151;
+    border-bottom: 1px solid  #515151;
+}
+    
+#primary-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #fff;
 }
 
-/* MAIN CONTENT */
-
-.square_link
-{
-    height: 200px;
-    width: 200px;
+li {
     float: left;
-    background: #fff;
-    margin: 0 20px 20px 0px;
+}
+
+#primary-menu li a {
+    display: block;
+    color: #515151;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 44.5px;
+}
+
+
+/*content descrition*/
+
+#content-description
+{
+	height: 100px; 
+	border-bottom: 1px solid #515151;
+    }
+.description-title {
+	
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #636363;
+}
+.content-description-title {
+    
+}
+.content-description-title p {
+    
+}
+#article-block {
+    border-bottom: 1px solid #5a5a5a;
+    position: relative;
+}
+.article-header {
+    margin-bottom: 24px;
+}
+.article-header a{
+    
+    text-decoration: none;
+    color: #21759b;
+}
+
+.post-date-i {
+    padding: 10px 0 0;
+}
+.enter-page-button {
+	width: 25px;
+	height: 25px;
+	border-radius: 50%;
+	border: 3px solid #21759b;
+	text-align: center;
+	line-height: 25px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	color: #21759b;
+	font-size: 30px;
 }

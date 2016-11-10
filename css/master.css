@@ -6,24 +6,26 @@ font-weight: normal;
 src: local('../fontsHelvetica Neue LT Std 45 Light'), url('../fonts/HelveticaNeueLTStd Lt.woff') format('woff');
 }
 body
-
-
 { 
 
-	font-family: 'Helvetica Neue LT Std 45 Light', 'Ubuntu', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 10px;	
 	line-height: 1.375em;
 	background: #dbdbdb;
 }
-h1 {  font-size: 3em; line-height: 1.05em;					}
-h2 {  font-size: 2.25em; line-height: 1.25em;				}
-h3 {  font-size: 1.75em; line-height: 1.25em;				}
-h4 {  font-size: 1.125em; line-height: 1.22222222em;		}
-Blockquote { font-size: 1.5em; line-height: 1.45833333em;	}
+h1 {  font-size: 3em; 		line-height: 1.05em; 		font-family: 'Roboto', sans-serif;			}
+h2 {  font-size: 2.25em; 	line-height: 1.25em;		font-family: 'Roboto', sans-serif;			}
+h3 {  font-size: 1.75em; 	line-height: 1.25em;		font-family: 'Roboto', sans-serif;			}
+h4 {  font-size: 1.125em; 	line-height: 1.22222222em; 	font-family: 'Roboto', sans-serif;			}
 
-
+Blockquote { font-size: 1.5em; line-height: 1.45833333em; font-family: 'Roboto', sans-serif;		}
+p { font-size: 1.5em; font-family: 'Open Sans', sans-serif; }
+ul li {
+    font-size: 1.25em; line-height: 1.22em;
+}
 .container-fluid {
     width: 1200px;
-    margin-top: 150px;
+    
 }
 
