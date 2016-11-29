@@ -1,0 +1,66 @@
+#worldclock-board
+{
+	font-family: "Times New Roman", Georgia, Serif;
+	height: 500px;
+}
+
+#zegar
+ {
+	font-size: 241px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: bold;
+}
+#data 
+{ 
+	margin-bottom: 100px;
+	font-size: 36px;
+	line-height: 36px;
+	text-align: right;
+}
+.timer_box {
+	
+}
+#zegar {
+	
+}
+#millisecond {
+	float: left;
+	width: 150px;
+	background-color: rgba(200, 197, 197, 0.1);
+	color: rgba(200, 197, 197, 0.4);
+}
+.time-location-container h2
+{
+	padding-top: 50px;
+	padding-left: 100px;
+	padding-bottom: 24px;
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 300;
+}
+#cities
+{
+	height: 47px;
+	padding: 15px 0;
+
+}
+#cities li {
+	padding: 5px 0;
+}
+.l-time
+{
+	margin-top: 5px;
+	display: block;
+}
+.city-btn
+{
+	height: 45px;
+	width: 115px;
+	float: right;
+	border: 1px solid grey;
+	margin-left:  10px;
+	text-align: center;
+	line-height: 18px;
+	font-size: 18px;
+}
