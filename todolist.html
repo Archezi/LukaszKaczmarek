@@ -1,0 +1,155 @@
+<html >
+<head>
+	<title>To Do App</title>
+	<charset utf="en">
+	<link rel="stylesheet" href="css/reset.css" >
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<link rel="stylesheet" type="text/css" href="css/todolist.css">
+	<link rel="stylesheet" type="text/css" href="css/modalstyle.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    
+
+
+
+</head>
+<body>
+
+<header>
+		<div class="header">
+			<div id="mainheader" >
+				<div id="mainheader-sitename">
+					<h1 class="sitetitle" ><a href="index.html"><span class="logo">Lukasz Kaczmarek Project Site</span></a></h1>
+					<!-- <p class="sitetitle-second">Project Site is my getherring of JavaScript and App Development</p> -->
+				</div>
+				
+			</div>
+
+	        <div id="navgroup">
+	            <nav id="" class="main-navigation" >
+	                <div class="nav-bar-container">
+	                    <ul id="primary-menu" >
+	                        <li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
+	                        <li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
+	                        <li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
+	                        <li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
+	                        <li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
+	                        <li id="css-nav" ><a href="csssite.html">CSS</a></li>
+	                    </ul>
+	                </div>
+	            </nav>
+	        </div>
+		</div>
+</header>
+
+
+
+<div id="wrapper">
+
+	<div id="content">
+		
+		<!-- header -->
+        <div id="main-content-wrapper">
+
+       		<div id="main-page-hero" class="full-section">
+
+    		<div  class="content-description-title ">
+        		<h2 class="description-title">Web Design in DID</h2>
+        		<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
+        		<h2 class="page-title description-title">TO DO LIST APP </h2>
+        		<button id="myBtn" class="modal-button">Code Pen - Code</button>
+        		<div class="element"></div>
+        		<p></p>
+    		</div>
+		</div>
+
+       		<section class="full-section ">
+       			<div class="max-with-laptop">
+       				<div class=" app-background">
+       					<div class="app-container">
+       						
+							<header class="app-header">
+								<input type="text" placeholder="Enter Activiti..." id="item">
+								<button id="add">
+									<svg fill="#25b99a" height="25" viewBox="0 0 25 25" width="25" xmlns="http://www.w3.org/2000/svg">
+									    <path d="M19 13h-6v6h-2v-6H5v-2h6V5h2v6h6v2z"/>
+									    <path d="M0 0h24v24H0z" fill="none"/>
+									</svg>
+								</button>
+							</header>
+							<div class="todo-container">
+								<!-- uncompleted items -->
+								<ul class="todo" id="todo">
+									
+									
+
+								</ul>
+
+								<!-- completed items -->
+
+								 <ul class="todo" id="completed">
+									
+
+								</ul> 
+							</div>
+							
+
+
+       					</div>
+       					
+       				</div>
+       			</div>
+       		</section>
+       		
+       		
+            
+		</div>
+		
+	</div>
+
+</div>		
+
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    	<p data-height="1000" data-theme-id="0" data-slug-hash="woEaay" data-default-tab="js,result" data-user="Archezi" data-embed-version="2" data-pen-title="To do list" class="codepen">See the Pen <a href="http://codepen.io/Archezi/pen/woEaay/">To do list</a> by Lukasz Kaczmarek (<a href="http://codepen.io/Archezi">@Archezi</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    	<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+  </div>
+</div>
+
+
+
+
+<!-- Load the CDN first -->
+
+	
+
+<!-- my script location -->
+<script src="js/modal.js" ></script>
+<script src="js/todolist.js"></script>
+</body>
+</html>
+
+
+<!-- <li>
+									This is an item
+									<div class="buttons">
+										<button class="remove">
+											<svg fill="#d8d8d8" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M6 19c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V7H6v12zM19 4h-3.5l-1-1h-5l-1 1H5v2h14V4z"/><path d="M0 0h24v24H0z" fill="none"/></svg>
+											    
+											    
+											
+										</button>
+										<button class="complete">
+											<svg fill="#25b99a" height="22" viewBox="0 0 25 25" width="22" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h24v24H0z" fill="none"/><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
+											    
+											    
+											
+										</button>
+									</div>
+
+									</li> -->

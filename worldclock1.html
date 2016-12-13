@@ -5,14 +5,15 @@
 	<link rel="stylesheet" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	<link rel="stylesheet" href="css/worldclock.css">
-	<script src="js/worldclock.js" ></script>
+	<link rel="stylesheet" type="text/css" href="css/modalstyle.css">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
 
 
 </head>
-<body onload=" worldclock();">
+<body onload=" start();">
 
 <header>
 		<div class="header">
@@ -50,6 +51,7 @@
         		<h2 class="description-title">Web Design in DID</h2>
         		<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
         		<h2 class="page-title description-title">WORLD CLOCK </h2>
+        		<button id="myBtn" class="modal-button">Code Pen - Code</button>
         		<p></p>
     		</div>
 		</div>
@@ -64,7 +66,7 @@
 						
    						<div class="timer_box">
    							<div id="zegar"></div>
-   							<div id="millisecond"></div>
+   							
    						</div>
    						<div id="data"></div>
 
@@ -72,27 +74,27 @@
 
    						<div >
    							<ul id="cities">
-   								<li class="city-btn" id="time1">
+   								<li class="city-btn" id="time1" type="button" onclick="updatetime(-0)"">
 	   								Dublin <br />
 	   								<span class="l-time"></span> 
 	   							</li>
-   								<li class="city-btn" id="time2">
+   								<li class="city-btn" id="time2" type="button" onclick="updatetime(+1)"">
    								Paris
 								<br /><span class="l-time"></span>
    								</li>
-   								<li class="city-btn" id="time3">
+   								<li class="city-btn" id="time3" type="button" onclick="updatetime(+3)">
 	   								Moscow
 	   								<br /><span class="l-time"></span>
    								</li>
-   								<li class="city-btn" id="time4">
+   								<li class="city-btn" id="time4" type="button" onclick="updatetime(-5)">
    									New York
    									<br /><span class="l-time"></span>
    								</li>
-   								<li class="city-btn" id="time5">
+   								<li class="city-btn" id="time5" type="button" onclick="updatetime(+9)">
    									Tokyo
    									<br /><span class="l-time"></span>
    								</li>
-   								<li class="city-btn" id="time6">
+   								<li class="city-btn" id="time6" type="button" onclick="updatetime(+11)">
    									Sydney
    									<br /><span class="l-time"></span>
    								</li>
@@ -127,7 +129,16 @@
 
 </div>		
 
+<div id="myModal" class="modal">
 
+<!-- Modal content -->
+<div class="modal-content">
+<span class="close">x</span>
+<p data-height="900" data-theme-id="0" data-slug-hash="GNXJGx" data-default-tab="js,result" data-user="Archezi" data-embed-version="2" data-pen-title="World Clock" class="codepen">See the Pen <a href="http://codepen.io/Archezi/pen/GNXJGx/">World Clock</a> by Lukasz Kaczmarek (<a href="http://codepen.io/Archezi">@Archezi</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+</div>
+
+</div>
 
 
 
@@ -137,6 +148,7 @@
 
 		<!-- my script location -->
 		
-		<script src="js/myscripts.js"></script>
+		<script src="js/worldclock-1.js" ></script>
+		<script src="js/modal.js" ></script>
 </body>
 </html>

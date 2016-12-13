@@ -5,8 +5,9 @@
 	<link rel="stylesheet" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	<link rel="stylesheet" href="css/hangman.css">
+	<link rel="stylesheet" type="text/css" href="css/modalstyle.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 
 
 
@@ -49,7 +50,8 @@
         		<h2 class="description-title">Web Design in DID</h2>
         		<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
         		<h2 class="page-title description-title">HANG MAN </h2>
-        		<p>Simple Java Script game that main purpouse is to guess corect movie title</p>
+        		<button id="myBtn" class="modal-button">Code Pen - Code</button>
+        		
     		</div>
 		</div>
 
@@ -57,7 +59,7 @@
    			<div class="max-with-laptop">
    				<div class="container-1160 ">
    					<div id="pojemnik">
-   						<h2 class="">Guess the movie title</h2>
+   						<h2 class="hang-top">Guess the movie title</h2>
    						<div id="plansza"></div>
    						<div id="szubienica">
    							<img src="images/hangman/s0.jpg" alt="hangman images" />
@@ -90,7 +92,15 @@
 </div>		
 
 
+<div id="myModal" class="modal">
 
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    	<p data-height="1000" data-theme-id="0" data-slug-hash="OboVyO" data-default-tab="js,result" data-user="Archezi" data-embed-version="2" data-pen-title="HangMan" class="codepen">See the Pen <a href="http://codepen.io/Archezi/pen/OboVyO/">HangMan</a> by Lukasz Kaczmarek (<a href="http://codepen.io/Archezi">@Archezi</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+    	<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+  </div>
+</div>
 
 
 
@@ -99,6 +109,7 @@
 
 		<!-- my script location -->
 		<script src="js/hangman.js" ></script>
+		<script src="js/modal.js" ></script>
 		<script src="js/myscripts.js"></script>
 </body>
 </html>

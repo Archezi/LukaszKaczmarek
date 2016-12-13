@@ -1,0 +1,22 @@
+
+
+
+#board {
+	
+	min-width: 800px;
+	min-height: 800px;
+	padding: 100px;
+	
+}
+.box {
+	width: 98px;
+	height: 98px;
+	border:1px solid gray;
+	text-align: center;
+	cursor: pointer;
+	float: left;
+	line-height: 98px;
+}
+.box:hover {
+	border:1px solid #fff;
+}

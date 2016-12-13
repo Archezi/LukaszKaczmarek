@@ -5,104 +5,96 @@
 	<link rel="stylesheet" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	<link rel="stylesheet" href="css/worldclock.css">
+	<link rel="stylesheet" type="text/css" href="css/modalstyle.css">
 	<script src="js/quoteoftheday.js" ></script>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-
-
-
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 </head>
 <body onload="quoteOfTheDay()">
 
-<header>
+	<header>
 		<div class="header">
 			<div id="mainheader" >
 				<div id="mainheader-sitename">
 					<h1 class="sitetitle" ><a href="index.html"><span class="logo">Lukasz Kaczmarek Project Site</span></a></h1>
 					<!-- <p class="sitetitle-second">Project Site is my getherring of JavaScript and App Development</p> -->
 				</div>
-				
+
 			</div>
 
-	        <div id="navgroup">
-	            <nav id="" class="main-navigation" >
-	                <div class="nav-bar-container">
-	                    <ul id="primary-menu" >
-	                        <li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
-	                        <li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
-	                        <li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
-	                        <li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
-	                        <li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
-	                        <li id="css-nav" ><a href="csssite.html">CSS</a></li>
-	                    </ul>
-	                </div>
-	            </nav>
-	        </div>
+			<div id="navgroup">
+				<nav id="" class="main-navigation" >
+					<div class="nav-bar-container">
+						<ul id="primary-menu" >
+							<li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
+							<li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
+							<li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
+							<li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
+							<li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
+							<li id="css-nav" ><a href="csssite.html">CSS</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</div>
-</header>
+	</header>
 
-<div id="wrapper">
-	<div id="content">
-		
-		<div id="main-page-hero" class="full-section">
+	<div id="wrapper">
+		<div id="content">
 
-    		<div  class="content-description-title ">
-        		<h2 class="description-title">Web Design in DID</h2>
-        		<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
-        		<h2 class="page-title description-title">Quote Of The Day </h2>
-        		<p></p>
-    		</div>
+			<div id="main-page-hero" class="full-section">
+
+				<div  class="content-description-title ">
+					<h2 class="description-title">Web Design in DID</h2>
+					<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
+					<h2 class="page-title description-title">Quote Of The Day </h2>
+					<button id="myBtn" class="modal-button">Code Pen - Code</button>
+					<p></p>
+				</div>
+			</div>
+
+			<section class="full-section  ">
+				<div class="max-with-laptop">
+					<div class="container-1160 ">
+
+						<div class="quote-container">
+							<blockquote id="day-quote"></blockquote>
+
+							<h3 id="quote-author"></h3>
+						</div>
+
+
+						<button class="quote-btn" type="button" value="solve" onclick="quoteOfTheDay()" >Quote Of The Day</button>
+					</div>
+				</div>
+			</section>
+			<!-- header -->
 		</div>
 
-   		<section class="full-section  ">
-   			<div class="max-with-laptop">
-   				<div class="container-1160 ">
-   					
-   					<div class="quote-container">
-   						<blockquote id="day-quote"></blockquote>
-   					
-   						<h3 id="quote-author"></h3>
-   					</div>
-   					
-   					
-   					<button class="quote-btn" type="button" value="solve" onclick="quoteOfTheDay()" >Quote Of The Day</button>
-   					  
-   					
-   					
-   				</div>
-   			</div>
-   		</section>
-
-		
 
 
 
+	</div>		
 
 
+	<div id="myModal" class="modal">
 
-		
-		<!-- header -->
-        
-		
-
+		<!-- Modal content -->
+		<div class="modal-content">
+			<span class="close">x</span>
+			<p data-height="900" data-theme-id="0" data-slug-hash="NbLqBe" data-default-tab="js,result" data-user="Archezi" data-embed-version="2" data-pen-title="NbLqBe" class="codepen">See the Pen <a href="http://codepen.io/Archezi/pen/NbLqBe/">NbLqBe</a> by Lukasz Kaczmarek (<a href="http://codepen.io/Archezi">@Archezi</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+			<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+		</div>
 
 	</div>
-	
-
-
-
-</div>		
 
 
 
 
 
 
-
-		
-
-		<!-- my script location -->
-		
-		<script src="js/myscripts.js"></script>
+	<!-- my script location -->
+	<script src="js/modal.js" ></script>
+	<script src="js/myscripts.js"></script>
 </body>
 </html>

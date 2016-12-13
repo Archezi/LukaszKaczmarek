@@ -3,24 +3,36 @@
 
 
 
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+
+
 body
 {
 	
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	background-color:  #ffffff;
 	font-size: 10px;
+	width: 100%;
+	overflow-x: hidden;
 	
 
 
 }
 
-h1 {  font-size: 34px; line-height: 40px;	color: #515151;	font-weight: bold;	vertical-align:baseline;		}
-h2 {  font-size: 22px; line-height: 26.5px;	color: #515151;	font-weight: bold;	vertical-align:baseline;		}
-h3 {  font-size: 18px; line-height: 22px;	color: #515151; font-weight: bold;	vertical-align:baseline;		}
+
+h1 {  font-size: 34px; line-height: 40px;	color: #515151;			}
+h2 {  font-size: 22px; line-height: 26.5px;	color: #515151;			}
+h3 {  font-size: 18px; line-height: 22px;	color: #515151; 		}
 h4 {  font-size: ; line-height: ;		}
-Blockquote { font-size: ; line-height: ;	}
-p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px;	}	
-    
+blockquote { font-size: 72px; line-height: 80px; font-family: "Times New Roman", sans-serif;		}
+
+ul li {
+    font-size: 1.25em; line-height: 1.22em;
+}
+p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
     
 .strong
 {
@@ -357,6 +369,7 @@ footer {
 	/*border-top: 1px solid #eaeef0;*/
 	padding: 16px 32px;
 }
+
 .card header h2
 {
 	color: #8FA4AE;
@@ -406,6 +419,25 @@ li p
     top: 50%;
     transition: opacity .3s;
     z-index: 1;
+}
+ul.card-showcase li a img.hangman-image {
+	position: absolute;
+	left: 16px;
+	top: 22px;
+}
+ul.card-showcase li a img.albertE-image{
+	position: absolute;
+	top: 13.5px;
+	left: 16px;
+}ul.card-showcase li a img.completed-image{
+	position: absolute;
+	top: 13.5px;
+	left: 16px;
+}
+ul.card-showcase li a img.battleship-image {
+	position: absolute;
+	top: 36.5px;
+	left: 16px;
 }
 .card .card-showcase h3 {
     color: #4A5960;
@@ -606,3 +638,81 @@ li p
 }
 
 
+/*MODAL*/
+
+.content-description-title .modal-button {
+	width: 185px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #039be5;
+	text-align: center;
+	border:none;
+	color: #ffffff;
+	box-shadow: 0 2px 2px rgba(0,0,0,.24),0 0 2px rgba(0,0,0,.12);
+	margin-top: 10px;
+	
+
+	position: relative;
+	float: right;
+}
+
+
+.footer-wrapper
+{
+	
+	min-height: 300px;
+	background: rgba(0,0,0, .58);
+}
+.col-lg-4
+{
+	width: 27.5%;
+	min-height: 300px;
+	margin-left: 2.5%;
+	padding-right: 2.5%;
+	border-right: 1px solid rgba(255,255,255, 1) ;
+	
+	float: left;
+}
+.col-lg-4:last-child {
+	border-right:none;
+}
+
+
+
+/*clock icon setup*/
+
+    .clock {
+      width: 65px;
+      height: 65px;
+      border:0.5px solid white;
+      border-radius:50%;
+      margin:10px auto;
+      position: absolute;
+      left: 16px;
+      top: 0;
+      padding:0.5rem;
+      box-shadow:
+        0 0 0 2px rgba(0,0,0,0.1),
+        inset 0 0 0 4px #EFEFEF,
+        inset 0 0 2px black,
+        0 0 2px rgba(0,0,0,0.2);
+    }
+    .clock-face {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transform: translateY(-3px); /* account for the height of the clock hands */
+    }
+    .hand {
+      width:50%;
+      height:1px;
+      background:black;
+      position: absolute;
+      top:50%;
+      transform-origin: 100%;
+      transform: rotate(90deg);
+      transition: all 0.05s;
+      transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+    }

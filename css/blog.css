@@ -1,0 +1,29 @@
+
+.blog-wrapper {
+    padding: 16px 86px;
+}
+
+.blog-post {
+    width: 760px;
+}
+.blog-post p 
+{
+  font-size: 18px;
+    line-height: 30px;
+}
+.blog-post h3{
+    font-size: 36px;
+    line-height: 40px;
+    font-weight: 400;
+}
+
+
+
+.logo-sub-msg {
+    padding-left: 50px;
+    
+}
+
+header .blog-header {
+    padding-left: 50px;
+}

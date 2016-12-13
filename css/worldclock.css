@@ -39,15 +39,16 @@
 	line-height: 40px;
 	font-weight: 300;
 }
-#cities
+ul#cities li.city-btn 
 {
-	height: 47px;
+	height: 30px;
+	line-height: 30px;
 	padding: 15px 0;
+	cursor: pointer;
+	background: #f7f7f7;
 
 }
-#cities li {
-	padding: 5px 0;
-}
+
 .l-time
 {
 	margin-top: 5px;
