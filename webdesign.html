@@ -5,144 +5,149 @@
 	<link rel="stylesheet" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-
-
-
+	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+	<script src="js/jquery.isotope.js" type="text/javascript"></script>
 </head>
 <body>
-
-<div id="wrapper">
-	<div id="content">
+	<header>
 		<div class="header">
 			<div id="mainheader" >
 				<div id="mainheader-sitename">
-					<h1 class="sitetitle" ><a href="index.html">Lukasz Kaczmarek Project Site</a></h1>
-					<p class="sitetitle-second">Project Site is My getherring of JavaScript and App Development snippets</p>
+					<h1 class="sitetitle" ><a href="index.html"><span class="logo">Lukasz Kaczmarek Project Site</span></a></h1>
+					<!-- <p class="sitetitle-second">Project Site is my getherring of JavaScript and App Development</p> -->
 				</div>
-				
+
 			</div>
-			
 
-
-	        <div id="navgroup">
-	            <nav id="site-navigation" class="main-navigation" >
-	                <div class="nav-bar-container">
-	                    <ul id="primary-menu" >
-	                        <li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
-	                        <li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
-	                        <li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
-	                        <li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
-	                        <li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
-	                        <li id="css-nav" ><a href="csssite.html">CSS</a></li>
-	                    </ul>
-	                </div>
-	            </nav>
-	        </div>
+			<div id="navgroup">
+				<nav id="" class="main-navigation" >
+					<div class="nav-bar-container">
+						<ul id="primary-menu" >
+							<li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
+							<li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
+							<li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
+							<li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
+							<li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
+							<li id="css-nav" ><a href="csssite.html">CSS</a></li>
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</div>
-		<!-- header -->
-        <div id="main-content-wrapper">
+	</header>
 
-       		<div id="content-description">
+	<div id="wrapper">
+		<div id="content">
 
-           		<div class="content-description-title">
-               		<h2 class="description-title">JavaScript Examples</h2>
-               		<h3 class="example_heading content_description_heading">Collection of applications and functions written in JavaScript.</h3>
-           		</div>
+			<div id="main-page-hero" class="full-section">
 
-       		</div>
+				<div  class="content-description-title ">
+					<h2 class="description-title">Web Design in DID</h2>
+					<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
+					<h2 class="page-title description-title">TO DO LIST APP </h2>
+
+				</div>
+				<div class="portfolioFilter">
+				 
+				    <a href="#" data-filter="*" class="current">All Categories</a>
+				    <a href="#" data-filter=".get-time">Get Time</a>
+				    <a href="#" data-filter=".arrays-example">Arrays Example</a>
+				    <a href="#" data-filter=".random-array">Random Array</a>
+				    <a href="#" data-filter=".objects">Objects</a>
+				 
+				</div>
+			</div>
+
+			<section class="full-section  content-1">
+				<div class="max-with-laptop">
+					<div class="main-content-wrapper grid-fluid">
+						<div class="c9 a9">
+
+							<div id="javascript-showcase" class="card">
+								<a href="jshangman.html">
+									<header>
+										<h2 id="showcase-header">
+											JavaScript Examples
+										</h2>
+											
+									</header>
+								</a>
+
+								<ul class="card-showcase portfolioContainer">
+									<li class="arrays-example">
+										<a class="has-logo" href="jshangman.html">
+											<img class="hangman-image" src="images/hangman/hangman-icon.jpg" alt="Image of Hang Man" width="65px" height="40px">
+											<h3 class="has-logo-h3">HangMan</h3>
+											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+
+										</a>
+									</li>
+									<li class="get-time">
+										<a class="has-logo" href="worldclock1.html">
+
+											<div class="clock">
+												<div class="clock-face">
+													<div class="hand hour-hand"></div>
+													<div class="hand min-hand"></div>
+													<div class="hand second-hand"></div>
+												</div>
+											</div>
+											<script>
+												
+											</script>
+
+											<h3 class="has-logo-h3">Date and Clock</h3>
+											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+
+										</a>
+									</li>
+
+									<li class="random-array">
+										<a class="has-logo" href="quoteoftheday.html">
+											<img class="albertE-image" src="images/albertE.jpg" alt="Albert E imgage" width="65px" height="65px">
+											<h3 class="has-logo-h3">Quote Of The Day</h3>
+											<p class="has-logo-p">Simple example of Random Array in JavaScript</p>
+
+										</a>
+									</li>
+									<li class="random-array ">
+										<a class="has-logo" href="battleship.html">
+											<img class="battleship-image" src="images/battleship.png" alt="Albert E imgage" width="65px" height="19px">
+											<h3 class="has-logo-h3">Battle Ship</h3>
+											<p class="has-logo-p">Simple example of Random Array in JavaScript</p>
+
+										</a>
+									</li>
+									<li class="objects random-array">
+										<a class="has-logo" href="todolist.html">
+											<img class="completed-image" src="images/completed-icon.png" alt="Albert E imgage" width="65px" height="65px">
+											<h3 class="has-logo-h3">To Do List App</h3>
+											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+
+										</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+						
 
 
-       		<div id="javascript-showcase" class="card">
-       			<a href="javascript.html">
-       				<header>
-       					<h2 id="showcase-header">
-       						JavaScript Examples
-       					</h2>	
-       				</header>
-       				
-       			</a>
 
-       			<ul class="card-showcase">
-       				<li>
-       					<a class="has-logo" href="">
-       						<i class="logo-date-clock logo-65 logo"></i>
-       						<h3 class="has-logo-h3">Date and Clock</h3>
-       						<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+					</div>
+				</div>
+			</section>
 
-       					</a>
-       				</li>
-       				<li>
-       					<a class="has-logo" href="">
-       						<i class="logo-date-clock logo-65 logo"></i>
-       						<h3 class="has-logo-h3">Date and Clock</h3>
-       						<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+		</div>
+	</div>		
 
-       					</a>
-       				</li>
-       				<li>
-       					<a class="has-logo" href="">
-       						<i class="logo-date-clock logo-65 logo"></i>
-       						<h3 class="has-logo-h3">Date and Clock</h3>
-       						<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
-
-       					</a>
-       				</li>
-       			</ul>
+	
 	
 
-       		</div>
-			
-       		
-
-
-
-       		
-
-
-       		
-
-       		
-
-
-
-
-
-		<div id="aside-content-wrapper">
-			<ul>
-				<li>LISTA</li>
-				<li>LISTA 3</li>
-			</ul>
-        </div>
-            
-		</div>
-		<!-- main-content-wrapper -->
-		
-        <!-- aside-content-wrapper -->
-
-
-	</div>
-	
-
-
-
-</div>		
-
-
-
-
-
-
-
-		<!-- Load the CDN first -->
-		<script src="//code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous" ></script>
-
-		<!-- If CDN fails to load, serve up the local version -->
-	 	<script>window.jQuery || document.write('<script src="js/jquery-2.2.3.js"><\/script>);</script>
-	 	<script src="js/jquery-2.2.3.js" type="text/javascript"></script>
-
-		<!-- my script location -->
-		<script src="js/myscripts.js"></script>
+	<!-- my script location -->
+	<script src="js/myscripts.js"></script>
 </body>
 </html>

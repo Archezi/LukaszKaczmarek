@@ -78,7 +78,7 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 }
 
 .main-content-wrapper {
-	width: 1160px;
+	width: 1280px;
 	box-sizing: border-box;
     margin-left: auto;
     margin-right: auto;
@@ -105,12 +105,18 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 
 
 .content-1 .grid-fluid .c9 {
-    width: 72.91667%;
+    width: 70%;
 }
 .content-1 .grid-fluid .a9 {
-    margin-right: 27.08333%;
+    margin-right: 30%;
 }
 
+.isotop-section {
+	position: absolute;
+	right: 0;
+	width: 100%;
+
+}
 .grid-fluid:after, .grid-fluid:before {
     clear: both;
     content: '.';
@@ -146,7 +152,7 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 .nav-bar-container,
 #mainheader 
 {
-    width: 1356px;
+    width: 1280px;
     margin: 0 auto;
        /* border-top: 1px solid  rgb(237, 237, 237);
     border-bottom: 1px solid  rgb(237, 237, 237);*/
@@ -230,7 +236,7 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
     color: #fff;
 }
 .content-description-title {
-    padding: 100px 36px 0px 36px;
+    padding: 80px 36px 0px 36px;
 }
 .content_description_heading {
 	font-size: 18px;
@@ -390,6 +396,8 @@ footer {
 {
 	margin-bottom: 0;
 	min-height: 68px;
+	position: relative;
+	width: 100%;
 }
 li p 
 {
@@ -716,3 +724,58 @@ ul.card-showcase li a img.battleship-image {
       transition: all 0.05s;
       transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
     }
+
+
+
+    /*ISOTOP*/
+
+    .isotope-item {
+    z-index: 2;
+}
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1;
+}
+.isotope,
+.isotope .isotope-item {
+  /* change duration value to whatever you like */
+ 
+    -webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+}
+.isotope {
+    -webkit-transition-property: height, width;
+    -moz-transition-property: height, width;
+    transition-property: height, width;
+}
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    -moz-transition-property: -moz-transform, opacity;
+    transition-property: transform, opacity;
+}
+
+
+#main-page-hero div.portfolioFilter  {
+	
+	
+	padding: 36px 36px 0px 36px;
+}
+#main-page-hero div.portfolioFilter a {
+	text-decoration: none;
+	
+    color: #515151;
+    text-align: left;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-right: 15px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 44.5px;
+
+}
+
+#main-page-hero div.portfolioFilter a:hover {
+	color: #039be5;
+	transition: all .3s	
+}
