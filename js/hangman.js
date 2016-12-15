@@ -1,4 +1,42 @@
-var haslo = "The Star Wars Rogue One";
+var movieTitle = new Array();
+
+movieTitle[0] = "The Godfather";
+movieTitle[1] = "Schindler's List";
+movieTitle[2] = "12 Angry Men";
+movieTitle[3] = "Life Is Beautiful";
+movieTitle[4] = "The Shawshank Redemption";
+movieTitle[5] = "The Pursuit of Happyness";
+movieTitle[6] = "Seven Samurai";
+movieTitle[7] = "Requiem for a Dream";
+movieTitle[8] = "A Beautiful Mind";
+movieTitle[9] = "Hachi: A Dog's Tale";
+movieTitle[10] = "The Dark Knight";
+movieTitle[11] = "It's a Wonderful Life";
+movieTitle[12] = "Phone Booth";
+movieTitle[13] = "The Sixth Sense";
+movieTitle[14] = "Saving Private Ryan";
+movieTitle[15] = "The Bridge on the River Kwai";
+movieTitle[16] = "The Secret in Their Eyes";
+movieTitle[17] = "Gran Torino";
+movieTitle[18] = "Inglourious Basterds";
+movieTitle[19] = "Blood Diamond";
+movieTitle[20] = "Man on Fire";
+movieTitle[21] = "Raiders of the Lost Ark";
+movieTitle[22] = "Once Upon A Time In The West";
+movieTitle[23] = "Goodfellas";
+movieTitle[24] = "Lord of the Rings Fellowship of the Ring";
+movieTitle[25] = "Seven Samurai";
+movieTitle[26] = "Inception";
+movieTitle[27] = "Fight Club";
+movieTitle[28] = "One Flew Over The Cuckoos Nest";
+movieTitle[29] = "The Dark Knight";
+movieTitle[30] = "The Star Wars Rogue One";
+
+
+var randomMovie = Math.floor(Math.random() * movieTitle.length);
+var randomMovieTitle = movieTitle[randomMovie];
+
+var haslo = randomMovieTitle;
 haslo = haslo.toUpperCase();
 
 var dlugosc = haslo.length;
