@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="css/reset.css" >
 	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
 	<link rel="stylesheet" type="text/css" href="css/mobilestyle.css">
-	
+	<link rel="stylesheet" type="text/css" href="css/modalstyle.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
 	<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
@@ -66,6 +66,7 @@
 					<h2 class="description-title">Java Script Development</h2>
 					<h3 class="example_heading content_description_heading">with David Randel</h3>
 					<h2 class="page-title description-title">Java Script 2nd Year Web Design - Final Submision  </h2>
+					<button id="myBtn" class="modal-button">Brief Description</button>
 
 				</div>
 				<div class="portfolioFilter">
@@ -200,9 +201,68 @@
 </section>
 
 </footer>
+
+
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <span class="close">x</span>
+    	
+    	<div class="brief-container">
+	<h2 class="brief-heder">The Brief</h2>
+	<h3 class="brief-h3">Part 1: Codepen Account</h3>
+	<p >The basis of this project will be to display code ‘snippets’ on a protfolio website. As a vehicle to host and deliver these
+	snippets you are to create a ‘Codepen’ account at http://codepen.io/ and develop on this account all the bits and pieces of
+	code created throughout the term.</p>
+	<ul class="brief-list">
+	<li class="list-title">Applicable Learning outcomes:</li>
+	<li>72.1 Understand concepts of operating systems</li>
+	<li>72.3 Be able to apply programming techniques</li>
+	</ul>
+	<h3 class="brief-h3">Part 2: Portfolio website</h3>
+	<p>Turning theory into practice you are to assemble your ‘Codepens’ into a ‘Resource’ website. Use appropriate JavaScript and
+	jQuery enhancements to showcase your coding proficiency and use a combination of js and advanced css to create
+	an effective and engaging website. As well as pages for showcasing your ‘Codepens’, you will create an ‘about this site’
+	page/section explaining the project and how you built your site and an ‘author’ page/section to give information about
+	yourself”.</p>
+	<p>This can be a single or multi-page site, whatever suits your intended experience you want to create.
+	The goal of this project is to produce something that you can add to your CV as a representation of your JS coding skills.</p>
+	<ul class="brief-list">
+	<li class="list-title">Applicable Learning outcomes:</li>
+	<li>72.1 Understand concepts of operating systems</li>
+	<li>72.2 Be able to use software design techniques</li>
+	<li>72.3 Be able to apply programming techniques</li>
+	<li>72.4 Be able to implement formal testing procedures.</li>
+	</ul>
+
+	<h3 class="brief-h3">Part 3: Required JavaScript library</h3>
+	<p>In addition to any JavaScript functionality you build into the site yourself you are REQUIRED to learn and include the
+	following JavaScript library:
+	Isotope <a href="http://isotope.metafizzy.co/">( http://isotope.metafizzy.co/ )</a> – Responsive Layout and Content Filtering</p>
+	<ul class="brief-list">
+	<li class="list-title">Applicable Learning outcomes:</li>
+	<li>72.2 Be able to use software design techniques</li>
+	<li>72.3 Be able to apply programming techniques</li>
+	<li>72.4 Be able to implement formal testing procedures.</li>
+	</ul>
+	<h3 class="brief-h3">Part 4: Additional JavaScript functionality and effects.</h3>
+	<p>You are to visit the jQuery plugin library Unheap <a href=" http://www.unheap.com/">( http://www.unheap.com/ )</a> and incorporate at least two (2) additional
+	effects on your site. Think of the overall experience and how you are engaging the user and choose effects or functionality
+	that enhances this.</p>
+	<ul class="brief-list">
+	<li class="list-title">Applicable Learning outcomes:</li>
+	<li>72.2 Be able to use software design techniques</li>
+	<li>72.3 Be able to apply programming techniques</li>
+	<li>72.4 Be able to implement formal testing procedures.</li>
+	</ul>
+</div>
+  </div>
+</div>
 	
 	
 	<!-- my script location -->
+	<script src="js/modal.js" ></script>
 	<script src="js/myscripts.js"></script>
 </body>
 </html>
