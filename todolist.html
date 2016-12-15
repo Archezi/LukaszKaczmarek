@@ -27,19 +27,37 @@
 			</div>
 
 	        <div id="navgroup">
-	            <nav id="" class="main-navigation" >
-	                <div class="nav-bar-container">
-	                    <ul id="primary-menu" >
-	                        <li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
-	                        <li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
-	                        <li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
-	                        <li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
-	                        <li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
-	                        <li id="css-nav" ><a href="csssite.html">CSS</a></li>
-	                    </ul>
-	                </div>
-	            </nav>
-	        </div>
+				<nav id="" class="main-navigation" >
+					<div class="nav-bar-container">
+						<ul id="primary-menu" >
+							<li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
+							<li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
+							<li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
+							<li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
+							<li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
+							<li id="css-nav" ><a href="csssite.html">CSS</a></li>
+
+							<li class="social-button">
+                                <a href="https://github.com/Archezi" target="_blank"  >
+                                    <img src="images/Logo/GitHub-Mark-64px.png" width="36px; " height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://codepen.io/Archezi/#" target="_blank"  >
+                                    <img src="images/Logo/Code-Pen.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://www.behance.net/lukakaczma5562" target="_blank"  >
+                                    <img src="images/Logo/PbyBehance-vertical-85px.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li id="about-me" class="social-button"><a href="aboutme.html">About Me</a></li>
+							
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</div>
 </header>
 
@@ -59,16 +77,33 @@
         		<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
         		<h2 class="page-title description-title">TO DO LIST APP </h2>
         		<button id="myBtn" class="modal-button">Code Pen - Code</button>
-        		<div class="element"></div>
+        		
         		<p></p>
     		</div>
 		</div>
 
        		<section class="full-section ">
        			<div class="max-with-laptop">
-       				<div class=" app-background">
+       				<div class="app-background">
+       						<div class="todo-app-description">
+       							<h2 class="title-heading">Capture what’s on your mind</h2>
+	       						<h2>Accomplish more, every day.</h2>
+       							<p>Whether you’re planning a holiday, sharing a shopping list with a partner or managing multiple work projects, <strong>To Do List</strong> is here to help you tick off all your personal and professional to-dos.</p>
+
+       							<h2>Plan for anything</h2>
+       							<p>rganize and share your to-do, work, grocery, movies and household lists. No matter what you’re planning, how big or small the task may be, <strong>To Do List</strong> makes it super easy to get stuff done.</p>
+
+       							<h2>When and where you need it </h2>
+       							<p>Need to remember to pick up some groceries? Set a location-based reminder to pull up your grocery list right when you get to the store. Need to finish a to-do? Set a time-based reminder to make sure you never miss a thing. </p>
+       						</div>
+
        					<div class="app-container">
        						
+
+
+
+
+
 							<header class="app-header">
 								<input type="text" placeholder="Enter Activiti..." id="item">
 								<button id="add">
@@ -125,7 +160,25 @@
 
 
 <!-- Load the CDN first -->
+<footer>
+	<section class="full-section">
+		<div class="max-with-laptop">
+			<div class="container-1280 footer-section-container">
+				<h2 class="copy-right">Copyright &copy; <span id="current-year"></span> Lukasz Kaczmarek</h2>
 
+				<script>
+					var dzisiaj = new Date();
+					var rok = dzisiaj.getFullYear();
+
+					document.getElementById('current-year').innerHTML = rok;
+
+				</script>
+			</div>
+		</div>
+		
+	</section>
+
+</footer>
 	
 
 <!-- my script location -->

@@ -45,29 +45,47 @@
 
   <header>
     <div class="header">
-     <div id="mainheader" >
-      <div id="mainheader-sitename">
-       <h1 class="sitetitle" ><a href="index.html"><span class="logo">Lukasz Kaczmarek Project Site</span></a></h1>
-       <!-- <p class="sitetitle-second">Project Site is my getherring of JavaScript and App Development</p> -->
-     </div>
-     
-   </div>
+        <div id="mainheader" >
+          <div id="mainheader-sitename">
+            <h1 class="sitetitle" ><a href="index.html"><span class="logo">Lukasz Kaczmarek Project Site</span></a></h1>
+           <!-- <p class="sitetitle-second">Project Site is my getherring of JavaScript and App Development</p> -->
+          </div>
+       
+        </div>
 
-   <div id="navgroup">
-     <nav id="" class="main-navigation" >
-       <div class="nav-bar-container">
-         <ul id="primary-menu" >
-           <li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
-           <li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
-           <li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
-           <li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
-           <li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
-           <li id="css-nav" ><a href="csssite.html">CSS</a></li>
-         </ul>
-       </div>
-     </nav>
-   </div>
- </div>
+        <div id="navgroup">
+          <nav id="" class="main-navigation" >
+            <div class="nav-bar-container">
+              <ul id="primary-menu" >
+                <li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
+                <li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
+                <li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
+                <li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
+                <li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
+                <li id="css-nav" ><a href="csssite.html">CSS</a></li>
+
+                <li class="social-button">
+                                   <a href="https://github.com/Archezi" target="_blank"  >
+                                       <img src="images/Logo/GitHub-Mark-64px.png" width="36px; " height="36px;" alt="">
+                                   </a>
+                </li>
+                <li class="social-button">
+                                   <a href="https://codepen.io/Archezi/#" target="_blank"  >
+                                       <img src="images/Logo/Code-Pen.png"   height="36px;" alt="">
+                                   </a>
+                </li>
+                <li class="social-button">
+                                   <a href="https://www.behance.net/lukakaczma5562" target="_blank"  >
+                                       <img src="images/Logo/PbyBehance-vertical-85px.png"   height="36px;" alt="">
+                                   </a>
+                </li>
+                <li id="about-me" class="social-button"><a href="aboutme.html">About Me</a></li>
+                
+              </ul>
+            </div>
+          </nav>
+        </div>
+    </div>
 </header>
 
 <div id="wrapper">
@@ -96,10 +114,9 @@
           <div class="type-wrap">
             <div id="typed-strings">
               <span>Battle Ship is a board game </span>
-              <p>that purpose is To spot ships on board </p>
-              <p> in as less moves as possible</p>
-              <p>You have limited numbers of try so u have to be precise </p>
-              <p>And idealy find paterns </p>
+              <p>Your goal is to spot and </p>
+              <p> sing enemy ships</p>
+              
             </div>
             <span id="typed" style="white-space:pre;"></span>
           </div>
@@ -161,7 +178,25 @@
 </div>		
 
 
+<footer>
+  <section class="full-section">
+    <div class="max-with-laptop">
+      <div class="container-1280 footer-section-container">
+        <h2 class="copy-right">Copyright &copy; <span id="current-year"></span> Lukasz Kaczmarek</h2>
 
+        <script>
+          var dzisiaj = new Date();
+          var rok = dzisiaj.getFullYear();
+
+          document.getElementById('current-year').innerHTML = rok;
+
+        </script>
+      </div>
+    </div>
+    
+  </section>
+
+</footer>
 
 
 

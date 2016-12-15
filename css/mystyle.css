@@ -17,6 +17,7 @@ body
 	font-size: 10px;
 	width: 100%;
 	overflow-x: hidden;
+	text-rendering: optimizeLegibility;
 	
 
 
@@ -60,7 +61,7 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 {
 	max-width: 1352px;
 	margin: 0 auto;
-	min-height: 100vh ;
+	
 	background-color:  #FFFFFF;
 }
 #content
@@ -74,7 +75,7 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 	position: relative;
 	display: block;
     margin: 0;
-    min-height: 100vh ;
+    
 }
 
 .main-content-wrapper {
@@ -103,7 +104,11 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
     float: left;
 }
 
-
+.main-content-wrapper img.javascript-bird {
+	position: absolute;
+	right: 0;
+	top: 100px;
+}
 .content-1 .grid-fluid .c9 {
     width: 70%;
 }
@@ -113,7 +118,7 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 
 .isotop-section {
 	position: absolute;
-	right: 0;
+	right: 17px;
 	width: 100%;
 
 }
@@ -194,8 +199,13 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 	color: #039be5;
 	transition: all .3s
 }
-
-
+ul#primary-menu li a img {
+    padding: 4px;
+}
+ul#primary-menu  li.social-button {
+    float: right;
+    
+}
 /*content descrition*/
 #main-page-hero {
 	margin-top: 10px;
@@ -207,6 +217,12 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 	
 	background:contain;
     box-shadow: 0 0 4px rgba(0,0,0,.14),0 4px 8px rgba(0,0,0,.28);
+}
+#comming-page-hero {
+    min-height: 1080px;
+    background-image: url(../images/coming-soon-dark.jpg);
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 #main-page-hero .page-title 
 {
@@ -231,7 +247,7 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 	font-size: 34px;
 	line-height: 40px;
 	
-    font-weight: bold;
+    font-weight: 400;
     text-transform: uppercase;
     color: #fff;
 }
@@ -299,8 +315,24 @@ p {	  margin: 24px 0 ; font-size: 14px; line-height: 24px; font-weight: 400;	}
 
 footer {
 	clear: both;
+	width: 1280px;
+	box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+footer section.full-section {
+	background: #f7f7f7;
 }
 
+footer section.full-section div.max-with-laptop div.container-1280 {
+	min-height:  50px;
+	text-align: center;
+}
+footer section.full-section div.max-with-laptop div.container-1280 h2{
+	font-size: 16px;
+	line-height: 24px;
+}
 
 
 /*STYLING OF JAVASCRIPT EXAMPLES BOX IN JavaScript PAGE*/
@@ -445,6 +477,16 @@ ul.card-showcase li a img.albertE-image{
 ul.card-showcase li a img.battleship-image {
 	position: absolute;
 	top: 36.5px;
+	left: 16px;
+}
+ul.card-showcase li a img.timer-icon {
+	position: absolute;
+	top: 13.5px;
+	left: 16px;
+}
+ul.card-showcase li a svg {
+	position: absolute;
+	top: 13.5px;
 	left: 16px;
 }
 .card .card-showcase h3 {
@@ -637,7 +679,7 @@ ul.card-showcase li a img.battleship-image {
 	border: 1px solid rgba(0,0,0, .28);
 	background: rgba(0,0,0, 0.58;);
 	cursor: pointer;
-	width: 200px;
+	
 	height: 50px;
 	font-size: 24px;
 	position: absolute;
@@ -659,7 +701,7 @@ ul.card-showcase li a img.battleship-image {
 	border:none;
 	color: #ffffff;
 	box-shadow: 0 2px 2px rgba(0,0,0,.24),0 0 2px rgba(0,0,0,.12);
-	margin-top: 10px;
+	margin-top: 30px;
 	
 
 	position: relative;
@@ -778,4 +820,206 @@ ul.card-showcase li a img.battleship-image {
 #main-page-hero div.portfolioFilter a:hover {
 	color: #039be5;
 	transition: all .3s	
+}
+
+.aboutme-wrapper {
+    margin-top: 20px;
+}
+
+.container-1280 {
+    width: 1280px;
+    min-height: 350px;
+    position: relative;
+    padding: 25px 0;
+}
+.container-1280 img.con-350-img-mid {
+    
+    
+
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+
+
+}
+.container-1280 img.img-about-me {
+    position: absolute;
+    right: 36px;
+    top: 25px;
+}
+.container-1280 img.relative-info-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container-1280 img.relative-info-img-blue {
+    position: absolute;
+    left: 400px;
+    top: 0;
+}
+.container-1280 ul {
+	padding: 43px 0;
+}
+ .container-1280 ul.skills-list-right {
+	position: relative;
+	float: left;
+	width: 50%;
+	text-align: left;
+	
+}
+.container-1280 ul.skills-list-left li:first-of-type,
+.container-1280 ul.skills-list-right li:first-of-type {
+	font-size: 24px;
+	line-height: 28px;
+	font-weight: 400;
+
+}
+ .container-1280 ul.skills-list-left {
+	position: relative;
+	float: right;
+	text-align: left; 
+	width: 50%;
+}
+.container-1280 ul li {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 24px 0;
+
+}
+.container-1280 ul.skills-list-left li {
+	padding-right: 0px;
+	padding-left: 400px;
+}
+.container-1280 ul.skills-list-right li {
+	padding-left: 0px;
+	padding-right: 300px;
+}
+
+.container-1280 h2.ab-h-designer {
+	position: absolute;
+	top: 185px;
+	left: 480px;
+	font-size: 36px;
+
+}
+.container-1280 h2.ab-h-coder {
+	position: absolute;
+	top: 185px;
+	right: 520px;
+	font-size: 36px;
+}
+.container-1280 h2.leading-heading-about {
+	font-size: 48px;
+	line-height: 60px;
+	font-weight: bold;
+}
+.second-line-about {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 300;
+    
+}
+div.random-info-container {
+	padding-left:800px;
+
+}
+div.random-info-container h2.random-info-h2 {
+    
+    padding-top: 0px;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43px;
+}
+div.random-info-container ul.random-info-list{
+	padding: 0;
+}
+div.random-info-container ul.random-info-list li {
+	font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    margin: 9px 0;
+}
+.random-info-wraper {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.slider-full {
+	width: 1920px;
+	margin: 0;
+	padding: 0;
+}
+.slider-container {
+	position: relative;
+	min-height: 1080px;
+}
+.span-container  {
+	
+	width: 800px;
+	margin: 0 auto;
+}
+.span-container-span {
+	width: 400px;
+	position: absolute;
+	top: 95%;
+	left: 45%;
+
+}
+.span-container-span span {
+	padding: 0 10px;
+	z-index: 999;
+}
+ button.slider-code-pen-btn {
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	z-index: 999;
+	width: 185px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: #039be5;
+    text-align: center;
+    border: none;
+    color: #ffffff;
+    box-shadow: 0 2px 2px rgba(0,0,0,.24), 0 0 2px rgba(0,0,0,.12);
+    
+    
+}
+
+
+.comming-soon-container {
+	position: relative;
+	width: 700px;
+	top: 330px;
+	margin:0 auto;
+}
+.comming-soon-container h2.comming-soon-header {
+	font-size: 72px;
+	line-height: 80px;
+	font-weight: 700;
+	color: #fff;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.comming-soon-container h3.comming-soon-secondary {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300px;
+	text-align: center;
+	margin-bottom: 14px;
+	color: #fff;
+
+}
+.comming-soon-container h3.comming-soon-3th {
+	font-size: 36px;
+	line-height: 40px;
+	font-weight: 400px;
+	text-align: center;
+
+	color: #fff;
+
 }

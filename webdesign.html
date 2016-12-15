@@ -32,6 +32,24 @@
 							<li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
 							<li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
 							<li id="css-nav" ><a href="csssite.html">CSS</a></li>
+
+							<li class="social-button">
+                                <a href="https://github.com/Archezi" target="_blank"  >
+                                    <img src="images/Logo/GitHub-Mark-64px.png" width="36px; " height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://codepen.io/Archezi/#" target="_blank"  >
+                                    <img src="images/Logo/Code-Pen.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://www.behance.net/lukakaczma5562" target="_blank"  >
+                                    <img src="images/Logo/PbyBehance-vertical-85px.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li id="about-me" class="social-button"><a href="aboutme.html">About Me</a></li>
+							
 						</ul>
 					</div>
 				</nav>
@@ -42,108 +60,41 @@
 	<div id="wrapper">
 		<div id="content">
 
-			<div id="main-page-hero" class="full-section">
-
-				<div  class="content-description-title ">
-					<h2 class="description-title">Web Design in DID</h2>
-					<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
-					<h2 class="page-title description-title">TO DO LIST APP </h2>
-
+			<div id="comming-page-hero" class="full-section">
+				<div class="comming-soon-container">
+					<h2 class="comming-soon-header">
+						COMMING SOON
+					</h2>
+					<h3 class="comming-soon-secondary">This section is under construction </h3>
+					<h3 class="comming-soon-3th">We pushing this pixels every day</h3>
 				</div>
-				<div class="portfolioFilter">
-				 
-				    <a href="#" data-filter="*" class="current">All Categories</a>
-				    <a href="#" data-filter=".get-time">Get Time</a>
-				    <a href="#" data-filter=".arrays-example">Arrays Example</a>
-				    <a href="#" data-filter=".random-array">Random Array</a>
-				    <a href="#" data-filter=".objects">Objects</a>
-				 
-				</div>
+				
+				
 			</div>
 
-			<section class="full-section  content-1">
-				<div class="max-with-laptop">
-					<div class="main-content-wrapper grid-fluid">
-						<div class="c9 a9">
-
-							<div id="javascript-showcase" class="card">
-								<a href="jshangman.html">
-									<header>
-										<h2 id="showcase-header">
-											JavaScript Examples
-										</h2>
-											
-									</header>
-								</a>
-
-								<ul class="card-showcase portfolioContainer">
-									<li class="arrays-example">
-										<a class="has-logo" href="jshangman.html">
-											<img class="hangman-image" src="images/hangman/hangman-icon.jpg" alt="Image of Hang Man" width="65px" height="40px">
-											<h3 class="has-logo-h3">HangMan</h3>
-											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
-
-										</a>
-									</li>
-									<li class="get-time">
-										<a class="has-logo" href="worldclock1.html">
-
-											<div class="clock">
-												<div class="clock-face">
-													<div class="hand hour-hand"></div>
-													<div class="hand min-hand"></div>
-													<div class="hand second-hand"></div>
-												</div>
-											</div>
-											<script>
-												
-											</script>
-
-											<h3 class="has-logo-h3">Date and Clock</h3>
-											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
-
-										</a>
-									</li>
-
-									<li class="random-array">
-										<a class="has-logo" href="quoteoftheday.html">
-											<img class="albertE-image" src="images/albertE.jpg" alt="Albert E imgage" width="65px" height="65px">
-											<h3 class="has-logo-h3">Quote Of The Day</h3>
-											<p class="has-logo-p">Simple example of Random Array in JavaScript</p>
-
-										</a>
-									</li>
-									<li class="random-array ">
-										<a class="has-logo" href="battleship.html">
-											<img class="battleship-image" src="images/battleship.png" alt="Albert E imgage" width="65px" height="19px">
-											<h3 class="has-logo-h3">Battle Ship</h3>
-											<p class="has-logo-p">Simple example of Random Array in JavaScript</p>
-
-										</a>
-									</li>
-									<li class="objects random-array">
-										<a class="has-logo" href="todolist.html">
-											<img class="completed-image" src="images/completed-icon.png" alt="Albert E imgage" width="65px" height="65px">
-											<h3 class="has-logo-h3">To Do List App</h3>
-											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
-
-										</a>
-									</li>
-								</ul>
-							</div>
-						</div>
-
-						
-
-
-
-					</div>
-				</div>
-			</section>
+			
 
 		</div>
 	</div>		
+<footer>
+	<section class="full-section">
+		<div class="max-with-laptop">
+			<div class="container-1280 footer-section-container">
+				<h2 class="copy-right">Copyright &copy; <span id="current-year"></span> Lukasz Kaczmarek</h2>
 
+				<script>
+					var dzisiaj = new Date();
+					var rok = dzisiaj.getFullYear();
+
+					document.getElementById('current-year').innerHTML = rok;
+
+				</script>
+			</div>
+		</div>
+		
+	</section>
+
+</footer>
 	
 	
 

@@ -24,20 +24,38 @@
 				
 			</div>
 
-	        <div id="navgroup">
-	            <nav id="" class="main-navigation" >
-	                <div class="nav-bar-container">
-	                    <ul id="primary-menu" >
-	                        <li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
-	                        <li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
-	                        <li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
-	                        <li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
-	                        <li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
-	                        <li id="css-nav" ><a href="csssite.html">CSS</a></li>
-	                    </ul>
-	                </div>
-	            </nav>
-	        </div>
+			<div id="navgroup">
+				<nav id="" class="main-navigation" >
+					<div class="nav-bar-container">
+						<ul id="primary-menu" >
+							<li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
+							<li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
+							<li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
+							<li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
+							<li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
+							<li id="css-nav" ><a href="csssite.html">CSS</a></li>
+
+							<li class="social-button">
+                                <a href="https://github.com/Archezi" target="_blank"  >
+                                    <img src="images/Logo/GitHub-Mark-64px.png" width="36px; " height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://codepen.io/Archezi/#" target="_blank"  >
+                                    <img src="images/Logo/Code-Pen.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://www.behance.net/lukakaczma5562" target="_blank"  >
+                                    <img src="images/Logo/PbyBehance-vertical-85px.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li id="about-me" class="social-button"><a href="aboutme.html">About Me</a></li>
+							
+						</ul>
+					</div>
+				</nav>
+			</div>
 		</div>
 </header>
 
@@ -102,7 +120,25 @@
   </div>
 </div>
 
+<footer>
+	<section class="full-section">
+		<div class="max-with-laptop">
+			<div class="container-1280 footer-section-container">
+				<h2 class="copy-right">Copyright &copy; <span id="current-year"></span> Lukasz Kaczmarek</h2>
 
+				<script>
+					var dzisiaj = new Date();
+					var rok = dzisiaj.getFullYear();
+
+					document.getElementById('current-year').innerHTML = rok;
+
+				</script>
+			</div>
+		</div>
+		
+	</section>
+
+</footer>
 
 
 		

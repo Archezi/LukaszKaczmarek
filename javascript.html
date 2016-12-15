@@ -32,7 +32,24 @@
 							<li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
 							<li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
 							<li id="css-nav" ><a href="csssite.html">CSS</a></li>
-							<li><img src="images/Logo/GitHub-Mark-64px.png" alt=""></li>
+
+							<li class="social-button">
+                                <a href="https://github.com/Archezi" target="_blank"  >
+                                    <img src="images/Logo/GitHub-Mark-64px.png" width="36px; " height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://codepen.io/Archezi/#" target="_blank"  >
+                                    <img src="images/Logo/Code-Pen.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://www.behance.net/lukakaczma5562" target="_blank"  >
+                                    <img src="images/Logo/PbyBehance-vertical-85px.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li id="about-me" class="social-button"><a href="aboutme.html">About Me</a></li>
+							
 						</ul>
 					</div>
 				</nav>
@@ -47,8 +64,8 @@
 
 				<div  class="content-description-title ">
 					<h2 class="description-title">Java Script Development</h2>
-					<h3 class="example_heading content_description_heading">David Randel</h3>
-					<h2 class="page-title description-title">Java Script 2nd Year Web Design - David Randel </h2>
+					<h3 class="example_heading content_description_heading">with David Randel</h3>
+					<h2 class="page-title description-title">Java Script 2nd Year Web Design - Final Submision  </h2>
 
 				</div>
 				<div class="portfolioFilter">
@@ -66,7 +83,7 @@
 				<div class="max-with-laptop">
 					<div class="main-content-wrapper grid-fluid">
 						<div class="c9 a9">
-
+						<img class="javascript-bird" src="DESIGN/images/bird.png" width="350px;"  alt="bird vector">
 							<div id="javascript-showcase" class="card">
 								<a href="jshangman.html">
 									<header>
@@ -82,7 +99,7 @@
 										<a class="has-logo" href="jshangman.html">
 											<img class="hangman-image" src="images/hangman/hangman-icon.jpg" alt="Image of Hang Man" width="65px" height="40px">
 											<h3 class="has-logo-h3">HangMan</h3>
-											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+											<p class="has-logo-p">Game where you have to guess movie title</p>
 
 										</a>
 									</li>
@@ -101,7 +118,7 @@
 											</script>
 
 											<h3 class="has-logo-h3">Date and Clock</h3>
-											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+											<p class="has-logo-p">World clock for different cities</p>
 
 										</a>
 									</li>
@@ -126,7 +143,26 @@
 										<a class="has-logo" href="todolist.html">
 											<img class="completed-image" src="images/completed-icon.png" alt="Albert E imgage" width="65px" height="65px">
 											<h3 class="has-logo-h3">To Do List App</h3>
-											<p class="has-logo-p">Simple example of automatic date and clock writen in JavaScript</p>
+											<p class="has-logo-p">Gra w statki, gdzie celem jest znalezienie statku na planszy.</p>
+
+										</a>
+									</li>
+									<li class="objects random-array">
+										<a class="has-logo" href="slider.html">
+											<svg fill="#5d5d5d" height="65" viewBox="0 0 24 24" width="65" xmlns="http://www.w3.org/2000/svg">
+											    <path d="M7 19h10V4H7v15zm-5-2h4V6H2v11zM18 6v11h4V6h-4z"/>
+											    <path d="M0 0h24v24H0z" fill="none"/>
+											</svg>
+											<h3 class="has-logo-h3">Slider</h3>
+											<p class="has-logo-p">Java Script full screen slider with timer</p>
+
+										</a>
+									</li>
+									<li class="get-time">
+										<a class="has-logo" href="stopper.html">
+											<img class="timer-icon" src="images/timer-icon-1.png"  alt="" width="65px" height="65px">
+											<h3 class="has-logo-h3">Timer</h3>
+											<p class="has-logo-p">Simple timer with stop and reset functions</p>
 
 										</a>
 									</li>
@@ -145,9 +181,27 @@
 		</div>
 	</div>		
 
-	
-	
+<footer>
+<section class="full-section">
+	<div class="max-with-laptop">
+		<div class="container-1280 footer-section-container">
+			<h2 class="copy-right">Copyright &copy; <span id="current-year"></span> Lukasz Kaczmarek</h2>
 
+			<script>
+				var dzisiaj = new Date();
+				var rok = dzisiaj.getFullYear();
+
+				document.getElementById('current-year').innerHTML = rok;
+
+			</script>
+		</div>
+	</div>
+	
+</section>
+
+</footer>
+	
+	
 	<!-- my script location -->
 	<script src="js/myscripts.js"></script>
 </body>

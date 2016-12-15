@@ -1,0 +1,142 @@
+<html >
+<head>
+	<title>Project Site</title>
+	<charset utf="en">
+	<link rel="stylesheet" href="css/reset.css" >
+	<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+	<link rel="stylesheet" href="css/stopper.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
+
+
+
+</head>
+<body onload="show();">
+
+<header>
+		<div class="header">
+			<div id="mainheader" >
+				<div id="mainheader-sitename">
+					<h1 class="sitetitle" ><a href="index.html"><span class="logo">Lukasz Kaczmarek Project Site</span></a></h1>
+					<!-- <p class="sitetitle-second">Project Site is my getherring of JavaScript and App Development</p> -->
+				</div>
+				
+			</div>
+
+	        <div id="navgroup">
+				<nav id="" class="main-navigation" >
+					<div class="nav-bar-container">
+						<ul id="primary-menu" >
+							<li id="webdesign-nav"><a href="webdesign.html">Design</a></li>
+							<li id="webdevelopment-nav"><a href="webdevelopment.html">Development</a></li>
+							<li id="appdesign-nav"><a href="appdesign.html">App Design</a></li>
+							<li id="appdevelopment-nav"><a href="appdevelopment.html">App Developoment</a></li>
+							<li id="javascript-nav"><a href="javascript.html">JavaScript</a></li>
+							<li id="css-nav" ><a href="csssite.html">CSS</a></li>
+
+							<li class="social-button">
+                                <a href="https://github.com/Archezi" target="_blank"  >
+                                    <img src="images/Logo/GitHub-Mark-64px.png" width="36px; " height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://codepen.io/Archezi/#" target="_blank"  >
+                                    <img src="images/Logo/Code-Pen.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li class="social-button">
+                                <a href="https://www.behance.net/lukakaczma5562" target="_blank"  >
+                                    <img src="images/Logo/PbyBehance-vertical-85px.png"   height="36px;" alt="">
+                                </a>
+							</li>
+							<li id="about-me" class="social-button"><a href="aboutme.html">About Me</a></li>
+							
+						</ul>
+					</div>
+				</nav>
+			</div>
+		</div>
+</header>
+
+<div id="wrapper">
+	<div id="content">
+		
+		<div id="main-page-hero" class="full-section">
+
+    		<div  class="content-description-title ">
+        		<h2 class="description-title">Web Design in DID</h2>
+        		<h3 class="example_heading content_description_heading">Basics of design and web design styles metods and additional informations</h3>
+        		<h2 class="page-title description-title">WORLD CLOCK </h2>
+        		<p></p>
+    		</div>
+		</div>
+
+   		<section class="full-section  ">
+   			<div class="max-with-laptop">
+   				<div class="container-1280 ">
+   					<div class="timer-container">
+   						<div class="timer-div">Time: <span id="time"></span></div>
+						<input class="start" type="button" value="start" onclick="start();">
+						<input class="stop" type="button" value="stop" onclick="stop();">
+						<input class="reset" type="button" value="reset" onclick="reset()">
+   					</div>
+   					
+   					  
+   					
+   					
+   				</div>
+   			</div>
+   		</section>
+
+		
+
+
+
+
+
+
+		
+		<!-- header -->
+        
+		
+
+
+	</div>
+	
+
+
+
+</div>		
+
+<footer>
+	<section class="full-section">
+		<div class="max-with-laptop">
+			<div class="container-1280 footer-section-container">
+				<h2 class="copy-right">Copyright &copy; <span id="current-year"></span> Lukasz Kaczmarek</h2>
+
+				<script>
+					var dzisiaj = new Date();
+					var rok = dzisiaj.getFullYear();
+
+					document.getElementById('current-year').innerHTML = rok;
+
+				</script>
+			</div>
+		</div>
+		
+	</section>
+
+</footer>
+
+
+
+
+
+		
+
+		<!-- my script location -->
+		<script src="js/stopper.js" ></script>
+		
+</body>
+</html>

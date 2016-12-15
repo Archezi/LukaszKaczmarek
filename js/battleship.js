@@ -35,13 +35,21 @@ function start()
  var  location2 = location1 + 1;
  var  location3 = location2 + 1;
 
+ var  randomLoc2 = fild[Math.floor(Math.random() * i)];
+
+
+ var  location4 = randomLoc2;
+ var  location5 = location4 + 1;
+ var  location6 = location5 + 1;
+ var  location7 = location6 + 1;
+
 function check(nr) {
     
     var  hit = false;
     
     for( i=0; i<fild.length; i++) {
-        if ( fild[nr] == location1 || fild[nr] == location2 || fild[nr] == location3) 
-          hit = true;
+        if ( fild[nr] == location1 || fild[nr] == location2 || fild[nr] == location3 || fild[nr] == location4|| fild[nr] == location5 || fild[nr] == location6 || fild[nr] == location7) 
+          hit = true;  
     }
   if (hit == true)
      {
